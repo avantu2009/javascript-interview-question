@@ -46,3 +46,27 @@ Ans.  Undefined (Declared but Not Assigned a Value)
 	Not defined (Variable Not Declared)
 	Happens when a variable is not declared at all in the code.
 
+ 	NaN (Not a Number)
+	Occurs when a mathematical operation fails to return a valid number.
+
+7.How many operators do we have in JS ? 
+Ans.  	1. Arithmetic Operators (+, -, *, /, %)
+	2. Assignment Operators (=, +=, -=, *=, /=, %=, **=)
+	3. Comparison Operators (==, ===, !=, !==, >, <, >=, <=)
+	4. Logical Operators (&&, !)
+
+8.  Explain Local Scope, Block Scope, Functional Scope and Scope Chain in javascript
+Ans. 	Local Scope
+	A variable declared inside a function is local to that function.
+	It cannot be accessed outside the function.
+
+	Block Scope
+	A variable declared with let or const inside {} (curly braces) is restricted to that block.
+	var does not have block scope, it leaks out.
+
+	Function Scope
+	Variables declared with var are function-scoped, meaning they exist only inside the function.
+
+	Scope Chain
+	When a variable is not found in the current scope, JavaScript looks up the outer scopes until it reaches the global scope.
+
